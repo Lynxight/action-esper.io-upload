@@ -1,0 +1,25 @@
+name: 'Publish APK to esper.io'
+description: 'An action to publish apk to esper.io'
+author: 'jmn8718'
+branding:
+  icon: 'edit'
+  color: 'orange'
+inputs:
+  enterpriseId:
+    description: 'Esper.io Enterprise ID'
+    required: true
+  apiKey:
+    description: 'API key to interact with esper.io API'
+    required: true
+  endpointName:
+    description: 'Esper.io endpoint name'
+    required: true
+  filePath:
+    description: 'APK file path'
+    required: true
+outputs:
+  applicationId:
+    description: 'new uploaded application id'
+runs:
+  using: 'node14'
+  main: 'lib/main.js'
