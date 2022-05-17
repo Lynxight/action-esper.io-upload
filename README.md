@@ -4,25 +4,25 @@ This action uploads an apk to esper.io using [Esper.io API](https://api.esper.io
 
 ## Inputs
 
-## `enterpriseId`
+### `enterpriseId`
 
 **Required** Esper.io Enterprise ID.
 
-## `apiKey`
+### `apiKey`
 
 **Required** API key to interact with esper.io API.
 
-## `endpointName`
+### `endpointName`
 
 **Required** Esper.io endpoint name.
 
-## `filePath`
+### `filePath`
 
 **Required** APK file path.
 
 ## Outputs
 
-## `applicationId`
+### `applicationId`
 
 New uploaded application id.
 
@@ -34,3 +34,8 @@ with:
   apiKey: 'API_KEY'
   endpointName: 'ENDPOINT_NAME'
   filePath: 'FILE_PATH'
+
+## References
+
+- [https://docs.github.com/en/actions/creating-actions/creating-a-javascript-action#introduction]
+- [https://github.com/vercel/ncc]

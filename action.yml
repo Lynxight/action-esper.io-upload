@@ -22,4 +22,4 @@ outputs:
     description: 'new uploaded application id'
 runs:
   using: 'node14'
-  main: 'lib/main.js'
+  main: 'dist/index.js'
